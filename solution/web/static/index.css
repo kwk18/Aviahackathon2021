@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Exo';
+}
+
+.box {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.btn {
+  background-color: cadetblue;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border: none;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
+#title {
+  font-size: 20pt;
+}
+
+canvas {
+  height: 350;
+  width: 150;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

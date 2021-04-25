@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="/static/index.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+      openNewWindow = function(url) {
+       window.open(url, "_blank");
+      };
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
+    <script type="text/javascript"
+         src="{{ url_for('static', filename='index.js') }}"></script>
+    <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css?family=Exo">
+    <title>Система электронного документооборота</title>
+</head>
+<body>
+  <div id="main">
+    <div class="box">
+      <div id="title">Добро пожаловать в ЭДО!</div>
+    </div>
+    <div class="box" class="hidden">
+      <button id="viewfile" class="btn" onclick="openNewWindow('{{ url }}')">
+        Просмотреть документ
+      </button>
+    </div>
+    <canvas class="hidden">
+    </canvas>
+    <div class="hidden">
+      <button id="sign" class="btn">
+        Подписать
+      </button>
+    </div>
+  </div>
+</body>
+</html>
