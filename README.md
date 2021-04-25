@@ -33,7 +33,7 @@ To compile it from source:
 
 ## Example
     
-You can see how this works in your browser http://localhost:5000 
+You can see how it works in your browser http://localhost:5000 
 
 
 ## About
