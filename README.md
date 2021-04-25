@@ -12,13 +12,13 @@
 
 ## Overview
 
-Web application **draft** for the case "MTS - Online document singing plugin".
+Web application for the case "MTS - Online document singing plugin".
 
 It was created using Python & Flask & sqlite3 & S3 Storage provided by Yandex.Cloud.
 
 ## Installation
 
-Make sure you have the working Python environment & flask. 
+Make sure you have working Python environment & flask. 
 
 To install application, please run:
 
