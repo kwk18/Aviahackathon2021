@@ -28,7 +28,7 @@ To install application, please run:
 To compile it from source:
 
     git clone https://github.com/kwk18/Aviahackathon2021
-    cd Aviahackathon2020/solution/web
+    cd Aviahackathon2021/solution/web
     python3 "app.py"
 
 ## Example
