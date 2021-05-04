@@ -41,5 +41,5 @@ You can see how it works in your browser http://localhost:5000
 Was written by BAGET team for Aviahackathon 2021
 
 ##### Notes 
-###### please note that "docx_template" path includes some workflows with S3 storage, sqlite3 database, documents, etc.
+###### please note that "docx_template" path includes some workflows with S3 storage, sqlite3 database, documents, etc...
 
